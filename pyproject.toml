@@ -1,0 +1,15 @@
+[project]
+name = "numpy-01"
+version = "0.1.0"
+description = "Learning Numpy"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.2.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ruff>=0.11.12",
+]
