@@ -5,11 +5,13 @@ description = "Learning Numpy"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "matplotlib>=3.10.3",
     "numpy>=2.2.6",
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
+    "pip>=25.1.1",
     "ruff>=0.11.12",
 ]
