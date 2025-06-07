@@ -1,0 +1,37 @@
+[lint]
+
+# Rules to check (select):
+select = [
+  "F",      # Pyflakes: detects undefined names, unused imports, etc.
+  "E", "W", # Pycodestyle errors and warnings (style issues)
+  "I",      # isort import sorting rules
+  "N",      # PEP8 naming conventions
+  "UP",     # Pyupgrade: helps modernize Python syntax
+  "C4",     # Comprehension-related best practices
+  "SIM",    # Simplification rules for code
+  "ISC",    # Good string concatenation practices
+  "RET",    # Return statement consistency
+  "RUF",    # Ruff native rules for Python best practices
+  "PERF",   # Performance improvements and common inefficiencies
+  "PD",     # Pandas-specific linting rules
+  "NPY",    # NumPy-specific linting rules
+]
+
+# Rules to ignore because they're either noisy or not relevant in your context
+ignore = [
+  "D100",    # Missing docstring in module (often noisy in notebooks)
+  "D104",    # Missing docstring in public package
+  "D107",    # Missing docstring in __init__ file
+  "RUF005",  # Allow .format() instead of always requiring f-strings
+  "RUF013",  # Mutable class variables (allow common notebook patterns)
+  "I001",    # Allow unsorted imports
+  "B008",    # Function calls in default argument values (common in quick scripts)
+  "SIM105",  # contextlib.suppress usage (sometimes less readable)
+  "PLR2004", # Magic numbers in comparisons (okay for exploratory code)
+  "N816",    # MixedCase global variables (common in notebooks)
+  "PD002",   # Allow pandas inplace=True (commonly used)
+  "NPY002",  # Allow legacy numpy random usage (common)
+]
+
+# Note: To auto-fix issues, run Ruff CLI with --fix flag:
+#    ruff --fix
