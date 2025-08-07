@@ -26,7 +26,7 @@ source .venv\Scripts\activate
 ```
 3. Install dependencies
 ```bash
-uv install
+uv sync
 ```
 This will install all required packages listed in the pyproject.toml file, including numpy, matplotlib, and ruff and dev dependencies.
 
@@ -56,3 +56,4 @@ This repository reflects my commitment to mastering core tools like NumPy as par
 
 This project is licensed under the [MIT License](https://github.com/Tams3d/numpy-journey/blob/master/LICENSE).
 You are free to use, modify, and distribute the code with proper attribution.
+
