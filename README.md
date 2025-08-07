@@ -57,3 +57,16 @@ This repository reflects my commitment to mastering core tools like NumPy as par
 This project is licensed under the [MIT License](https://github.com/Tams3d/numpy-journey/blob/master/LICENSE).
 You are free to use, modify, and distribute the code with proper attribution.
 
+# 📑 References
+
+- **CampusX Data Science Mentorship Program – Nitish Singh (Hindi)**  
+  [Watch on YouTube](https://www.youtube.com/watch?v=XF6DCrNTzug)  
+  Beginner-friendly, practical tutorial for mastering NumPy for data science.
+
+- **Introduction to Numerical Computing with NumPy – Alex Chabot-Leclerc (English)**  
+  [Watch on YouTube](https://www.youtube.com/watch?v=ZB7BZMhfPgk)  
+  A comprehensive introduction to numerical computing using NumPy, focusing on array operations and performance.
+
+- **Advanced NumPy – Juan Nunez-Iglesias (English)**  
+  [Watch on YouTube](https://www.youtube.com/watch?v=cYugp9IN1-Q)  
+  A deep dive into advanced NumPy topics, including broadcasting, memory layout, and performance optimizations.
