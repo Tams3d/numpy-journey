@@ -1,6 +1,7 @@
 <div align="center">
-<img width="1560" height="640" alt="Numpy_Banner" src="https://github.com/user-attachments/assets/f6148aff-3684-4f04-88a8-fd9a07b07b4f" />
+<img width="1560" height="640" alt="Numpy_Banner" src="https://github.com/user-attachments/assets/54d14217-3ce9-49e4-96f2-548ccb85cf88" />
 </div>
+
 
 # 🚀 Introduction
 
@@ -77,3 +78,4 @@ This repository reflects my commitment to mastering core tools like NumPy as par
 
 This project is licensed under the [MIT License](https://github.com/Tams3d/numpy-journey/blob/master/LICENSE).
 You are free to use, modify, and distribute the code with proper attribution.
+
