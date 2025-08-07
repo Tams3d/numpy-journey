@@ -1,17 +1,36 @@
 [project]
-name = "numpy-01"
+name = "numpy-journey"
 version = "0.1.0"
-description = "Learning Numpy"
+description = "A hands-on, personal journey through the power of NumPy — the core library for numerical computing in Python."
 readme = "README.md"
 requires-python = ">=3.13"
+license = "MIT"
+
+authors = [
+  { name = "Tamil Selvan" }
+]
+
+keywords = [
+  "numpy",
+  "numerical computing",
+  "python",
+  "data science",
+  "arrays",
+  "vectorized operations",
+  "broadcasting",
+  "jupyter notebook",
+  "scientific computing",
+  "learning"
+]
+
 dependencies = [
-    "matplotlib>=3.10.3",
-    "numpy>=2.2.6",
+  "matplotlib>=3.10.3",
+  "numpy>=2.2.6"
 ]
 
 [dependency-groups]
 dev = [
-    "ipykernel>=6.29.5",
-    "pip>=25.1.1",
-    "ruff>=0.11.12",
+  "ipykernel>=6.29.5",
+  "pip>=25.1.1",
+  "ruff>=0.11.12"
 ]
